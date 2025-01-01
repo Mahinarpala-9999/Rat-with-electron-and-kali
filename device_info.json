@@ -1,0 +1,154 @@
+{
+    "platform": "Windows",
+    "architecture": [
+        "64bit",
+        "WindowsPE"
+    ],
+    "processor": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "machine": "AMD64",
+    "node": "Hacker",
+    "release": "11",
+    "version": "10.0.22635",
+    "python_version": "3.13.0 (tags\/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "os_name": "nt",
+    "cpu_count": 2,
+    "cpu_logical_count": 4,
+    "memory_total": 8319787008,
+    "memory_available": 565891072,
+    "disk_total": 350071287808,
+    "disk_used": 2358951936,
+    "disk_free": 347712335872,
+    "network_interfaces": {
+        "Local Area Connection* 1": [
+            [
+                -1,
+                "DC-1B-A1-D2-AC-22",
+                null,
+                null,
+                null
+            ],
+            [
+                2,
+                "169.254.254.176",
+                "255.255.0.0",
+                null,
+                null
+            ],
+            [
+                23,
+                "fe80::3d4e:29e2:e443:4d65",
+                null,
+                null,
+                null
+            ]
+        ],
+        "Local Area Connection* 2": [
+            [
+                -1,
+                "DE-1B-A1-D2-AC-21",
+                null,
+                null,
+                null
+            ],
+            [
+                2,
+                "169.254.133.85",
+                "255.255.0.0",
+                null,
+                null
+            ],
+            [
+                23,
+                "fe80::a431:c355:290:d53f",
+                null,
+                null,
+                null
+            ]
+        ],
+        "Ethernet": [
+            [
+                -1,
+                "00-50-56-C0-00-01",
+                null,
+                null,
+                null
+            ],
+            [
+                2,
+                "192.168.145.1",
+                "255.255.255.0",
+                null,
+                null
+            ],
+            [
+                23,
+                "fe80::313a:2a74:d4c9:6346",
+                null,
+                null,
+                null
+            ]
+        ],
+        "Ethernet 2": [
+            [
+                -1,
+                "00-50-56-C0-00-08",
+                null,
+                null,
+                null
+            ],
+            [
+                2,
+                "192.168.223.1",
+                "255.255.255.0",
+                null,
+                null
+            ],
+            [
+                23,
+                "fe80::48fd:f521:9895:7c2b",
+                null,
+                null,
+                null
+            ]
+        ],
+        "WiFi": [
+            [
+                -1,
+                "DC-1B-A1-D2-AC-21",
+                null,
+                null,
+                null
+            ],
+            [
+                2,
+                "192.168.1.5",
+                "255.255.255.0",
+                null,
+                null
+            ],
+            [
+                23,
+                "fe80::1ebe:f8fb:aefd:c84",
+                null,
+                null,
+                null
+            ]
+        ],
+        "Loopback Pseudo-Interface 1": [
+            [
+                2,
+                "127.0.0.1",
+                "255.0.0.0",
+                null,
+                null
+            ],
+            [
+                23,
+                "::1",
+                null,
+                null,
+                null
+            ]
+        ]
+    }
+}
