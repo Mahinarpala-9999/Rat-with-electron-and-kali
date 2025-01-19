@@ -8,10 +8,10 @@ import psutil  # For system information
 import json
 
 # URLs and credentials
-API_URL = "https://mahendranathreddynarpala.online/python_project/add-command.php"
-DEVICE_INFO_URL = "https://mahendranathreddynarpala.online/python_project/upload-device-info.php"
-USERNAME = "mahi"
-PASSWORD = "mahi@7922"
+API_URL = "your url"
+DEVICE_INFO_URL = "your url"
+USERNAME = "yours"
+PASSWORD = "yours"
 
 # Function to send a command to the API
 def send_command(command):
